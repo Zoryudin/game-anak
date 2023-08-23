@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+      padding: 0 10px;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      /* background: #7d2ae8; */
+      background-image: url("../asset/Pixel-art-in-2019-Pixel-art-background-Pixel-art-.gif");
+      background-repeat: no-repeat;
+      background-size: 250vw 100vh;
+    }
+    
+    .container{
+      background-color: #fff;
+      border-radius: 10px;
+    }
+
+    .buttons{
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+    }
+
+    .judul{
+      color: black;
+      text-align: center;
+      margin: 50px 20px 100px 20px;
+    }
+
+    .buttons input{
+      margin: 10px;
+    }
+
+    input{
+      margin: 10px 0;
+    }
+   
+    .btn{
+      font-size: 30px;
+      color: white;
+      background-color:  #7d2ae8;
+      padding: 10px 40px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+    }
+
+    @media only screen and (min-width: 600px) {
+      body{
+        background-size: 100vw 100vh;
+      }
+    }
+  </style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Anak | Batu Gunting Kertas</title>
+</head>
+<body>
+  <div class="container">
+    <div class="judul">
+      <h1>Ayo Bermain </h1>
+      <h2>Batu Gunting Kertas</h2>
+    </div>
+    <div class="buttons">
+      <a href="/BGK/game.html"><input class="btn" type="button" value="Mulai"></input></a>
+      <a href="/"><input class="btn" type="button" value="kembali"></input></a>
+    </div>
+  </div>
+</body>
+</html>
